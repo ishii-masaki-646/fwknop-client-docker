@@ -1,5 +1,5 @@
 services:
   fwknop:
-    build: .
+    image: ghcr.io/ishii-masaki-646/fwknop-client-docker:latest
     volumes:
       - ${HOME}/.fwknoprc:/tmp/.fwknoprc:ro
