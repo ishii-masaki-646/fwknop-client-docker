@@ -2,4 +2,4 @@ services:
   fwknop:
     build: .
     volumes:
-      - ${HOME}/.fwknoprc:/root/.fwknoprc:ro
+      - ${HOME}/.fwknoprc:/tmp/.fwknoprc:ro
