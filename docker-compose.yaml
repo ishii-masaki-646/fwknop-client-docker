@@ -1,0 +1,5 @@
+services:
+  fwknop:
+    build: .
+    volumes:
+      - ${HOME}/.fwknoprc:/root/.fwknoprc:ro
